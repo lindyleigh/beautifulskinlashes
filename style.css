@@ -1,0 +1,117 @@
+body {
+    background: palegreen;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    max-width: 18000px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logo{
+    width: 32%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    color: darkslategrey;
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+}
+
+.logo h3 {
+    font-size: 26px;
+}
+
+.logo h5 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 22px;
+}
+.tulip {
+    width: 10%;
+}
+
+.navbar {
+    margin: 0 auto;
+    margin-bottom: -10px;
+    width: 61%;
+}
+
+.navbar ul {
+	list-style: none;
+    margin: 0 auto;
+}
+
+.navbar li {
+	display: inline-block;
+    margin: 2%;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+}
+
+.navbar a {
+	color: teal;
+}
+
+.home-image img {
+    width: 100%;
+    height: auto;
+}
+
+.home-info {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.home-description {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Belleza', sans-serif;
+    font-size: 20px;
+    font-color: black;
+}
+
+.reviews {
+    padding-left: 2%;
+}
+
+.reviews h3 {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Belleza', sans-serif;
+}
+
+@media screen and (max-width: 680px) {
+    .tulip {
+        width: 40%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width:680px) {
+  ul.navbar li:not(:first-child) {display: none;}
+  ul.navbar li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.navbar.responsive {position: relative;}
+  ul.navbar.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.navbar.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.navbar.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
