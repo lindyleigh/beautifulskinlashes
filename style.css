@@ -75,7 +75,8 @@ body {
 }
 
 .reviews {
-    padding-left: 2%;
+    padding-left: 4%;
+    padding-right:0;
 }
 
 .reviews h3 {
