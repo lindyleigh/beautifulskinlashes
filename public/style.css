@@ -314,6 +314,15 @@ slideshow:after {
     }
 }
 
+.contact-div {
+    font-family: 'Belleza', sans-serif;
+    color: darkslategrey;
+}
+
+.contact-div h3 {
+    font-weight: bold;
+}
+
 .footer {
     background-color: darkslategrey;
     color: cornsilk;
