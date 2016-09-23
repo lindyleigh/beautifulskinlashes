@@ -1,12 +1,12 @@
 ; (function () {
 
     angular.module('beautiful')
-        .component('contactComponent', {
-            templateUrl: 'app/components/contact/contact.html',
-            controller: ContactController
+        .component('footerComponent', {
+            templateUrl: 'app/components/footer/footer.html',
+            controller: FooterController
         })
 
-    function ContactController() {
+    function FooterController() {
         var $ctrl = this;
 
     }

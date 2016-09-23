@@ -314,6 +314,16 @@ slideshow:after {
     }
 }
 
+.footer {
+    background-color: darkslategrey;
+    color: cornsilk;
+    width: 100%;
+    height: 10%;
+    font-family: 'Belleza', sans-serif;
+    text-align: center;
+    padding: 1%;
+}
+
 @media screen and (max-device-width: 680px) and (orientation: landscape) {
     .gallery {
         height: 70%;
