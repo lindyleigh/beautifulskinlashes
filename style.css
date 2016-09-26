@@ -75,18 +75,25 @@ body {
 }
 
 .home-description {
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-bottom: 2%;
+    background-color: cornsilk;
+    border-right: 1px solid darkslategrey;
+    box-shadow: 5px 5px 5px darkslategrey;
+    color: darkslategrey;
     font-family: 'Belleza', sans-serif;
     font-size: 20px;
-    font-color: black;
-    border-right: 1px solid darkslategrey;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    width: 48%;
 }
 
 .reviews {
-    padding-left: 4%;
-    padding-right:0;
+    background-color: cornsilk;
+    box-shadow: 5px 5px 5px darkslategrey;
+    padding: 2%;
+    padding-right: 0;
+    margin-left: 2%;
+    width: 48%;
 }
 
 .reviews h3 {
