@@ -80,6 +80,7 @@ body {
     color: darkslategrey;
     font-family: 'Belleza', sans-serif;
     font-size: 20px;
+    margin: 0 auto;
     margin-bottom: 2%;
     margin-right: 2%;
     padding: 2%;
@@ -87,9 +88,9 @@ body {
 }
 
 .home-description h3 {
-    text-align: center;
-    margin-top: 0;
     font-family: 'Belleza', sans-serif;
+    margin-top: 0;
+    text-align: center;
 }
 
 .reviews {
