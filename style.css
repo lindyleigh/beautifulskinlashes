@@ -358,6 +358,10 @@ slideshow:after {
         margin-top: 5%;
     }
 
+    .home-description {
+        width: 100%;
+    }
+
     .about-info {
         padding-left: 15%;
         padding-right: 15%;
