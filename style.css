@@ -75,16 +75,11 @@ body {
 }
 
 .home-description {
-    background-color: cornsilk;
-    box-shadow: 5px 5px 5px darkslategrey;
+   background-color: cornsilk;
     color: darkslategrey;
     font-family: 'Belleza', sans-serif;
     font-size: 20px;
-    margin: 0 auto;
-    margin-bottom: 2%;
-    margin-right: 2%;
-    padding: 2%;
-    width: 50%;
+    padding: 2% 12% 2% 12%;
 }
 
 .home-description h3 {
@@ -94,12 +89,10 @@ body {
 }
 
 .reviews {
-    background-color: teal;
+   background-color: teal;
     color: cornsilk;
-    /*box-shadow: 5px 5px 5px darkslategrey;*/
     padding: 2%;
     padding-right: 0;
-    margin-left: 2%;
     width: 100%;
 }
 
@@ -358,11 +351,6 @@ slideshow:after {
     .tulip {
         width: 40%;
         margin-top: 5%;
-    }
-
-    .home-description {
-        width: 100%;
-        padding: 8%;
     }
 
     .about-info {
