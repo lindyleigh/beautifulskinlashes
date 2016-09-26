@@ -319,6 +319,12 @@ slideshow:after {
     font-weight: bold;
 }
 
+.map-div {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+
 /*page footer*/
 
 .footer {
