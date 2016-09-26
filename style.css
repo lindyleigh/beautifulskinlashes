@@ -83,7 +83,7 @@ body {
     margin-bottom: 2%;
     margin-right: 2%;
     padding: 2%;
-    width: 48%;
+    width: 50%;
 }
 
 .home-description h3 {
@@ -93,12 +93,13 @@ body {
 }
 
 .reviews {
-    background-color: cornsilk;
-    box-shadow: 5px 5px 5px darkslategrey;
+    background-color: teal;
+    color: cornsilk;
+    /*box-shadow: 5px 5px 5px darkslategrey;*/
     padding: 2%;
     padding-right: 0;
     margin-left: 2%;
-    width: 48%;
+    width: 100%;
 }
 
 .reviews h3 {
@@ -360,6 +361,7 @@ slideshow:after {
 
     .home-description {
         width: 100%;
+        padding: 8%;
     }
 
     .about-info {
