@@ -1,6 +1,6 @@
 ;(function(){
 
-    angular.module('beautiful', ['ui.router'])
+    angular.module('beautiful', ['ui.router'], ['ngMap'])
     
         //ROUTING CONFIG
         .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
