@@ -382,6 +382,10 @@ slideshow:after {
     padding: 0;
     position: absolute;
     }
+
+    .contact {
+        width: 100%;
+    }
 }
 
 @media screen and (max-device-width: 680px) and (orientation: landscape) {
