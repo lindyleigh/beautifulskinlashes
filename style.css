@@ -361,7 +361,7 @@ input[type=checkbox]:checked ~ #menu{
         width: 0;
     }
 
-    .show-menu ul {
+    .navbar ul {
         position: static;
 		display: none;
     }
