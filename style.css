@@ -375,13 +375,14 @@ input[type=checkbox]:checked ~ #menu{
 	}
 
     .show-menu {
-        display: block;
+        background-color: darkslategray;
         color: cornsilk;
-        width: 10%;
+        display: block;
+        font-size: 43px;
         position: absolute;
         right: 3%;
         top: -12%;
-        font-size: 43px;
+        width: 10%;
 	}
 
     .home-image img {
