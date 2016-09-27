@@ -184,6 +184,7 @@ body {
 
 .gallery {
     height: 500px;
+    margin-bottom: 2%;
 }
 
 .slideshow img {
@@ -346,12 +347,6 @@ body {
 
     .map-div {
         width: 100%;
-    }
-}
-
-@media screen and (max-device-width: 680px) and (orientation: landscape) {
-    .gallery {
-        height: 70%;
     }
 }
 
