@@ -67,10 +67,13 @@ body {
 
 .facebook {
     color: darkslategray;
-    width: 12%;
     position: absolute;
     left: 1%;
-    top: 1%;
+    top: -17%;
+}
+
+.facebook:hover {
+    color: cornsilk;
 }
 
 .show-menu {
