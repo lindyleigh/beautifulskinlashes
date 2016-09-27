@@ -61,6 +61,23 @@ body {
 	color: teal;
 }
 
+.show-menu {
+	font-family: 'Cinzel', serif;
+	text-decoration: none;
+	color: cornsilk;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
 /*home tab*/
 
 .home-image img {
@@ -319,6 +336,23 @@ body {
         width: 40%;
         margin-top: 5%;
     }
+
+    .navbar ul {
+        position: static;
+		display: none;
+    }
+
+    .navbar li {
+		margin-bottom: 1px;
+	}
+
+    .navbar ul li, .navbar li a {
+		width: 100%;
+	}
+
+    .show-menu {
+		display:block;
+	}
 
     .about-info {
     box-shadow: 0;
