@@ -270,18 +270,23 @@ slideshow:after {
 
 .slideshow li:nth-child(2) img { 
     animation-delay: 6s; 
+    display: hidden;
 }
 .slideshow li:nth-child(3) img { 
     animation-delay: 12s; 
+    display: hidden;
 }
 .slideshow li:nth-child(4) img { 
     animation-delay: 18s; 
+    display: hidden;
 }
 .slideshow li:nth-child(5) img { 
     animation-delay: 24s; 
+    display: hidden;
 }
 .slideshow li:nth-child(6) img { 
     animation-delay: 30s; 
+    display: hidden;
 }
 
 @keyframes imageAnimation { 
