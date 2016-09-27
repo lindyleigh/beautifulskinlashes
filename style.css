@@ -105,6 +105,7 @@ input[type=checkbox]:checked ~ #menu{
     font-family: 'Belleza', sans-serif;
     font-size: 20px;
     padding: 2% 12% 2% 12%;
+    text-align: center;
 }
 
 .home-description h3 {
@@ -359,14 +360,14 @@ input[type=checkbox]:checked ~ #menu{
     }
 
     .facebook {
-        top: -12%;
+        top: 4%;
         right: 3%;
     }
 
     .logo {
         position: absolute;
         left:35%;
-        margin-top: 4%;
+        margin-top: 0;
     }
 
     .logo h3 {
@@ -409,7 +410,7 @@ input[type=checkbox]:checked ~ #menu{
         padding: 0% 0 0 0;
         padding-bottom: 0;
         border-radius: 10%;
-        margin-top: 9%;
+        margin-top: 6%;
 	}
 
     .about-info {
