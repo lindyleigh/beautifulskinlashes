@@ -366,11 +366,11 @@ input[type=checkbox]:checked ~ #menu{
 		display: none;
     }
 
-    .show-menu li {
+    .navbar li {
 		margin-bottom: 1px;
 	}
 
-    .show-menu ul li, .show-menu li a {
+    .navbar ul li, .show-menu li a {
 		width: 100%;
 	}
 
