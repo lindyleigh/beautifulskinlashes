@@ -361,7 +361,7 @@ input[type=checkbox]:checked ~ #menu{
 
     .facebook {
         top: 4%;
-        right: 3%;
+        left: 3%;
     }
 
     .logo {
