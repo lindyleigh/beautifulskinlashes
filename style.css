@@ -339,6 +339,14 @@ body {
         color: cornsilk;
     }
 
+    .gallery {
+        height: 200px;
+    }
+
+    .slideshow {
+        height: 200px;
+    }
+
     .contact {
         width: 100%;
         box-shadow: 0;
