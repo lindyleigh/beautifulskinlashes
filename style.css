@@ -352,6 +352,8 @@ input[type=checkbox]:checked ~ #menu{
 
     .show-menu {
 		display:block;
+        color: cornsilk;
+        width: 10%;
 	}
 
     .about-info {

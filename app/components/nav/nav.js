@@ -9,15 +9,6 @@
     function NavController() {
         var $ctrl = this;
 
-        // $ctrl.responsiveNavbar = function () {
-        //     $ctrl.x = angular.element(document.getElementById("navbar"));
-        //     if ($ctrl.x.className === "navbar") {
-        //         $ctrl.x.className += " responsive";
-        //     } else {
-        //         $ctrl.x.className = "navbar";
-        //     }
-        // }
-
     }
 
 
