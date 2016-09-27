@@ -392,10 +392,11 @@ slideshow:after {
 
     .contact {
         width: 100%;
+        box-shadow: 0;
     }
 
     .map-div {
-        width: 95%;
+        width: 100%;
     }
 }
 
