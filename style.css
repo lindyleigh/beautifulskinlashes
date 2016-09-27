@@ -178,119 +178,74 @@ body {
 
 /*gallery tab*/
 
-.gallery {
+.slideshow { 
+    position: relative; 
     width: 100%;
-    height: 500px;
-    position: fixed;
-}
-
-.slideshow,
-.slideshow:after { 
-    width: 100%;
-    height: 60%;
-    list-style: none;
-}
-
-slideshow:after { 
-    content: '';
-    background: transparent url(images/tropical1,jpg) repeat top left; 
-}
-
-.slideshow li span { 
-    width: 100%;
-    height: 500px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    color: transparent;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: none;
-    opacity: 0;
-    animation: imageAnimation 36s linear infinite 0s; 
-}
-
-.slideshow li div { 
-    position: absolute;
-    bottom: 30px;
-    left: 0px;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    animation: titleAnimation 36s linear infinite 0s; 
-}
-
-.slideshow li div h3 { 
-    font-family: 'Belleza', sans-serif;
-    font-size: 240px;
-    padding: 0;
-}
-
-.slideshow li img {
-    animation: titleAnimation 36s linear infinite 0s;
     height: auto;
-    list-style: none;
-    width: 100%;
+    }
+
+.slideshow img {
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 3;
+  -webkit-animation: slideshow 12s linear 0s infinite;
+  -moz-animation: slideshow 12s linear 0s infinite;
+  -ms-animation: slideshow 12s linear 0s infinite;
+  -o-animation: slideshow 12s linear 0s infinite;
+  animation: slideshow 12s linear 0s infinite;
 }
 
-.slideshow li:nth-child(1) span { 
-    background-image: url(images/tropical1.jpg) 
-}
-.slideshow li:nth-child(2) span { 
-    background-image: url(images/tropical2.jpg);
-    animation-delay: 6s; 
-}
-.slideshow li:nth-child(3) span { 
-    background-image: url(images/tropical3.jpg);
-    animation-delay: 12s; 
-}
-.slideshow li:nth-child(4) span { 
-    background-image: url(images/tropical4.jpg);
-    animation-delay: 18s; 
-}
-.slideshow li:nth-child(5) span { 
-    background-image: url(images/tropical5.jpg);
-    animation-delay: 24s; 
-}
-.slideshow li:nth-child(6) span { 
-    background-image: url(images/tropical6.jpg);
-    animation-delay: 30s; 
+.slideshow img:nth-child(2) {
+  z-index: 2;
+  -webkit-animation: slideshow 12s linear 4s infinite;
+  -moz-animation: slideshow 12s linear 4s infinite;
+  -ms-animation: slideshow 12s linear 4s infinite;
+  -o-animation: slideshow 12s linear 4s infinite;
+  animation: slideshow 12s linear 4s infinite;
 }
 
-.slideshow li:nth-child(2) div { 
-    animation-delay: 6s; 
-}
-.slideshow li:nth-child(3) div { 
-    animation-delay: 12s; 
-}
-.slideshow li:nth-child(4) div { 
-    animation-delay: 18s; 
-}
-.slideshow li:nth-child(5) div { 
-    animation-delay: 24s; 
-}
-.slideshow li:nth-child(6) div { 
-    animation-delay: 30s; 
+.slideshow img:nth-child(3) {
+   z-index: 1;
+  -webkit-animation: slideshow 12s linear 8s infinite;
+  -moz-animation: slideshow 12s linear 8s infinite;
+  -ms-animation: slideshow 12s linear 8s infinite;
+  -o-animation: slideshow 12s linear 8s infinite;
+  animation: slideshow 12s linear 8s infinite;
 }
 
-@keyframes imageAnimation { 
-    0% { opacity: 0; animation-timing-function: ease-in; }
-    8% { opacity: 1; animation-timing-function: ease-out; }
-    17% { opacity: 1 }
-    25% { opacity: 0 }
-    100% { opacity: 0 }
+@-webkit-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-moz-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-ms-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-o-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
 }
 
-@keyframes titleAnimation { 
-    0% { opacity: 0 }
-    8% { opacity: 1 }
-    17% { opacity: 1 }
-    19% { opacity: 0 }
-    100% { opacity: 0 }
-}
 
-.no-cssanimations .slideshow li span{
+.no-cssanimations .slideshow img{
 	opacity: 1;
 }
 
@@ -376,22 +331,6 @@ slideshow:after {
 
     .services-list a {
         color: cornsilk;
-    }
-
-    .gallery {
-    width: 100%;
-    height: 60%;
-    position: absolute;
-    }
-
-    .slideshow li span {
-        height: 60%;
-    }
-
-    .slideshow li div h3 { 
-    font-size: 230%;
-    padding: 0;
-    position: absolute;
     }
 
     .contact {
