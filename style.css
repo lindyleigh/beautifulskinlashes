@@ -181,8 +181,12 @@ body {
 .slideshow { 
     position: relative; 
     width: 100%;
-    height: 50%;
+    height: 400px;
     }
+
+.gallery {
+    height: 400px;
+}
 
 .slideshow img {
   height: auto;
