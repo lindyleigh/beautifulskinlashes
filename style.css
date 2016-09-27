@@ -347,12 +347,17 @@ slideshow:after {
     }
 
     .about-info {
-        padding-left: 15%;
-        padding-right: 15%;
+    padding: 10%;
+    width: 100%;
+    margin-top: 0;
     }
 
     .kristine {
         width: 80%;
+    }
+
+    .servicepricing {
+        width: 100%;
     }
 
     .gallery {
