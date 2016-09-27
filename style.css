@@ -37,19 +37,19 @@ body {
 
 /*navigation bar*/
 
-.navbar {
+.navbarr {
     margin: 0 auto;
     margin-bottom: -10px;
     width: 61%;
 }
 
-.navbar ul {
+.navbarr ul {
 	list-style: none;
     padding-left: 0;
     text-align: center;
 }
 
-.navbar li {
+.navbarr li {
 	display: inline-block;
     margin: 2%;
     font-weight: bold;
@@ -57,7 +57,7 @@ body {
     font-size: 18px;
 }
 
-.navbar a {
+.navbarr a {
 	color: teal;
 }
 
@@ -357,22 +357,21 @@ input[type=checkbox]:checked ~ #menu{
         margin-top: 0;
     }
 
-    .navbar {
+    .navbarrr {
         width: 0;
-        position: none;
         min-height: 0;
     }
 
-    .navbar ul {
+    .navbarrr ul {
         position: static;
 		display: none;
     }
 
-    .navbar li {
+    .navbarr li {
 		margin-bottom: 1px;
 	}
 
-    .navbar ul li, .show-menu li a {
+    .navbarr ul li, .show-menu li a {
 		width: 100%;
 	}
 
@@ -446,25 +445,25 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 @media screen and (max-width:680px) {
-  ul.navbar li:not(:first-child) {display: none;}
-  ul.navbar li.icon {
+  ul.navbarr li:not(:first-child) {display: none;}
+  ul.navbarr li.icon {
     float: right;
     display: inline-block;
   }
 }
 
 @media screen and (max-width:680px) {
-  ul.navbar.responsive {position: relative;}
-  ul.navbar.responsive li.icon {
+  ul.navbarr.responsive {position: relative;}
+  ul.navbarr.responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.navbar.responsive li {
+  ul.navbarr.responsive li {
     float: none;
     display: inline;
   }
-  ul.navbar.responsive li a {
+  ul.navbarr.responsive li a {
     display: block;
     text-align: left;
   }
