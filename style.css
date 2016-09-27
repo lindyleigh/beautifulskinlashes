@@ -180,13 +180,13 @@ body {
 
 .slideshow { 
     position: relative; 
-    width: 100%;
-    height: auto;
     }
 
 .slideshow img {
+  height: auto;
   position: absolute;
   top: 0; left: 0;
+  width: 100%;
   z-index: 3;
   -webkit-animation: slideshow 12s linear 0s infinite;
   -moz-animation: slideshow 12s linear 0s infinite;
