@@ -12,10 +12,6 @@ body {
 
 /*logo*/
 
-.header {
-    position: relative;
-}
-
 .logo{
     width: 32%;
     margin: 0 auto;
@@ -335,28 +331,57 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 @media screen and (max-width: 680px) {
+
+    .header {
+    position: relative;
+    height: 136px;
+    }
+
     .tulip {
         width: 40%;
         margin-top: 5%;
     }
 
-    .navbar ul {
+    .logo {
+        position: absolute;
+        left:38%;
+    }
+
+    .logo h3 {
+        font-size: 17px;
+        margin-top: 5%;
+    }
+
+    .logo h5 {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .navbar {
+        width: 0;
+    }
+
+    .show-menu ul {
         position: static;
 		display: none;
     }
 
-    .navbar li {
+    .show-menu li {
 		margin-bottom: 1px;
 	}
 
-    .navbar ul li, .navbar li a {
+    .show-menu ul li, .show-menu li a {
 		width: 100%;
 	}
 
     .show-menu {
-		display:block;
+        display: block;
         color: cornsilk;
         width: 10%;
+        position: absolute;
+        right: 3%;
+        top: -12%;
+        font-size: 43px;
 	}
 
     .about-info {
