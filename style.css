@@ -239,8 +239,9 @@ slideshow:after {
 
 .slideshow li img {
     animation: titleAnimation 36s linear infinite 0s;
-    width: 100%;
     height: auto;
+    list-style: none;
+    width: 100%;
 }
 
 /*.slideshow li:nth-child(1) span { 
