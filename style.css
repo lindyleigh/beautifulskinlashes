@@ -1,6 +1,7 @@
 /*site structure*/
 body {
     background: palegreen;
+    position: relative;
 }
 
 .container-fluid {
@@ -336,6 +337,10 @@ body {
         box-shadow: 0;
         margin-bottom: 0;
         width: 100%;
+    }
+
+    .services-list {
+        width: 96%;
     }
 
     .services-list ul {
