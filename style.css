@@ -110,7 +110,7 @@ body {
     margin: 0 auto;
     margin-bottom: 2%;
     margin-top: 2%;
-    padding: 2%;
+    padding: 2% 12% 2% 12%;
     width: 50%;
 }
 
@@ -393,6 +393,7 @@ slideshow:after {
     .contact {
         width: 100%;
         box-shadow: 0;
+        margin-bottom: 0;
     }
 
     .map-div {
