@@ -394,7 +394,7 @@ input[type=checkbox]:checked ~ #menu{
 		margin-bottom: 1px;
 	}
 
-    .navbarr ul li, .show-menu li a {
+    .navbarr ul li, .navbarr li a {
 		width: 100%;
 	}
 
@@ -414,11 +414,11 @@ input[type=checkbox]:checked ~ #menu{
 	}
 
     .about-info {
-    box-shadow: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 10%;
-    width: 100%;
+        box-shadow: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 10%;
+        width: 100%;
     }
 
     .kristine {
