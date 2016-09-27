@@ -358,6 +358,11 @@ input[type=checkbox]:checked ~ #menu{
         margin-top: 5%;
     }
 
+    .facebook {
+        top: -12%;
+        right: 3%;
+    }
+
     .logo {
         position: absolute;
         left:35%;
