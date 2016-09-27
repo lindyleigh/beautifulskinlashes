@@ -12,6 +12,10 @@ body {
 
 /*logo*/
 
+.header {
+    position: relative;
+}
+
 .logo{
     width: 32%;
     margin: 0 auto;
