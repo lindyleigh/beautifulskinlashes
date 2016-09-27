@@ -432,7 +432,7 @@ input[type=checkbox]:checked ~ #menu{
     }
 
     .services-list {
-        width: 96%;
+        width: 100%;
     }
 
     .services-list ul {
