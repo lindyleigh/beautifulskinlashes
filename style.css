@@ -359,6 +359,8 @@ input[type=checkbox]:checked ~ #menu{
 
     .navbar {
         width: 0;
+        position: none;
+        min-height: 0;
     }
 
     .navbar ul {
@@ -382,7 +384,11 @@ input[type=checkbox]:checked ~ #menu{
         position: absolute;
         right: 3%;
         top: -12%;
-        width: 10%;
+        width: 12%;
+        padding: 0% 0 0 0;
+        padding-bottom: 0;
+        border-radius: 10%;
+        margin-top: 6%;
 	}
 
     .home-image img {
