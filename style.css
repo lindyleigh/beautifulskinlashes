@@ -357,12 +357,12 @@ input[type=checkbox]:checked ~ #menu{
         margin-top: 0;
     }
 
-    .navbarrr {
+    .navbarr {
         width: 0;
         min-height: 0;
     }
 
-    .navbarrr ul {
+    .navbarr ul {
         position: static;
 		display: none;
     }
