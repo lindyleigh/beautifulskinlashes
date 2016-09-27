@@ -348,9 +348,11 @@ slideshow:after {
     }
 
     .about-info {
+    box-shadow: none;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 10%;
     width: 100%;
-    margin-top: 0;
     }
 
     .kristine {
@@ -358,7 +360,18 @@ slideshow:after {
     }
 
     .servicepricing {
+        box-shadow: none;
+        margin-bottom: 0;
         width: 100%;
+    }
+
+    .services-list ul {
+        background-color: darkslategrey;
+        margin-bottom: 0;
+    }
+
+    .services-list a {
+        color: cornsilk;
     }
 
     .gallery {
@@ -379,6 +392,10 @@ slideshow:after {
 
     .contact {
         width: 100%;
+    }
+
+    .map-div {
+        width: 95%;
     }
 }
 
