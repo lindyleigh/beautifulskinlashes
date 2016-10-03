@@ -438,9 +438,9 @@ body {
   }
 
     .social-mobile {
-        bottom: -1%;
+        bottom: -2%;
         position: absolute;
-        right: 26%;
+        right: 42%;
         visibility: visible;
     }
 
@@ -450,6 +450,10 @@ body {
 
     .social-mobile i:hover {
         color:teal;
+    }
+
+    .social-mobile li {
+        background-color: darkslategrey;
     }
 
     .logo {
