@@ -412,7 +412,7 @@ input[type=checkbox]:checked ~ #menu{
   .hamburger a {
     color:darkslategrey;
     display: block;
-    font-family: 'Yatra One', cursive;
+    font-family: 'Cinzel', serif;
     font-size: 18px;
     font-weight: bold;
     padding: 10px 10px 10px;
@@ -438,6 +438,7 @@ input[type=checkbox]:checked ~ #menu{
     color: cornsilk;
     font-size: 35px;
     left: 0;
+    line-height: 27px;
     position: absolute;
     top: 0;
 }
