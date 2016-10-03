@@ -360,9 +360,10 @@ input[type=checkbox]:checked ~ #menu{
 @media screen and (max-width: 680px) {
 
     .header {
-    position: relative;
     height: 136px;
+    margin-bottom: 2%;
     margin-top: 3%;
+    position: relative;
     }
 
     .tulip {
@@ -379,69 +380,69 @@ input[type=checkbox]:checked ~ #menu{
         visibility: hidden;
     }
 
-  .hamburger-btn {
-        background-color: darkslategray;
-        border-radius: 10%;
-        border: none;
-        color: cornsilk;
-        font-size: 43px;
-        margin-top: 6%;
-        padding: 0% 0 0 0;
-        padding-bottom: 0;
-        position: absolute;
-        right: 3%;
-        top: -12%;
+    .hamburger-btn {
+            background-color: darkslategray;
+            border-radius: 10%;
+            border: none;
+            color: cornsilk;
+            font-size: 43px;
+            margin-top: 6%;
+            padding: 0% 0 0 0;
+            padding-bottom: 0;
+            position: absolute;
+            right: 3%;
+            top: -12%;
+            visibility: visible;
+            width: 12%;
+    }
+
+    .hamburger {
+        background-color:darkslategray;
+        height: 100%;
+        overflow-x: hidden;
+        padding-top: 14%; 
+        position: fixed; 
+        right: 0;
+        top: 0;
+        transition: 0.5s;
+        width: 0;
         visibility: visible;
-        width: 12%;
-  }
+        z-index: 1; 
+    }
 
-  .hamburger {
-    background-color:darkslategray;
-    height: 100%;
-    overflow-x: hidden;
-    padding-top: 14%; 
-    position: fixed; 
-    right: 0;
-    top: 0;
-    transition: 0.5s;
-    width: 0;
-    visibility: visible;
-    z-index: 1; 
-  }
+    .hamburger a {
+        color:darkslategrey;
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 10px 10px;
+        text-decoration: none;
+        transition: 0.3s
+    }
 
-  .hamburger a {
-    color:darkslategrey;
-    display: block;
-    font-family: 'Cinzel', serif;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 10px 10px;
-    text-decoration: none;
-    transition: 0.3s
-}
+    .hamburger li {
+        border-bottom: 1px solid darkslategrey;
+        background-color: cornsilk;
+        font-family: 'Cinzel', serif;
+    }
 
-.hamburger li {
-    border-bottom: 1px solid darkslategrey;
-    background-color: cornsilk;
-}
+    .hamburger ul {
+        list-style: none;
+        padding-left: 0;
+    }
 
-.hamburger ul {
-    list-style: none;
-    padding-left: 0;
-}
+    .hamburger a:hover {
+        color: darkslategray;
+    }
 
-.hamburger a:hover {
-    color: darkslategray;
-}
-
-.hamburger .closebtn {
-    color: cornsilk;
-    font-size: 35px;
-    left: 0;
-    line-height: 27px;
-    position: absolute;
-    top: 0;
-}
+    .hamburger .closebtn {
+        color: cornsilk;
+        font-size: 35px;
+        left: 0;
+        line-height: 27px;
+        position: absolute;
+        top: 0;
+    }
 
     .logo {
         position: absolute;
@@ -509,7 +510,7 @@ input[type=checkbox]:checked ~ #menu{
     }
 }
 
-@media screen and (max-width:680px) {
+/*@media screen and (max-width:680px) {
   ul.menu li:not(:first-child) {display: none;}
   ul.menu li.icon {
     float: right;
@@ -532,4 +533,4 @@ input[type=checkbox]:checked ~ #menu{
     display: block;
     text-align: left;
   }
-}
+}*/
