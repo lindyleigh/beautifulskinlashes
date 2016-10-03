@@ -46,10 +46,12 @@ body {
 }
 
 .hamburger-btn {
+    display: none;
     visibility: hidden;
 }
 
 .hamburger {
+    display: none;
     width: 0;
     visibility: hidden;
 }
