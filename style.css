@@ -76,31 +76,19 @@ body {
 	color: teal;
 }
 
-.facebook {
+.social {
     color: darkslategray;
-    left: 1%;
+    right: 1%;
     position: absolute;
-    top: -17%;
+    top: 1%;
 }
 
-.facebook:hover {
+.social:hover {
     color: cornsilk;
 }
 
-.show-menu {
-	color: cornsilk;
-	display: none;
-	padding: 10px 0;
-	text-align: center;
-	text-decoration: none;
-}
-
-input[type=checkbox]{
-    display: none;
-}
-
-input[type=checkbox]:checked ~ #menu{
-    display: block;
+.social-mobile {
+    visibility: hidden;
 }
 
 /*home tab*/
@@ -443,6 +431,25 @@ input[type=checkbox]:checked ~ #menu{
         line-height: 27px;
         position: absolute;
         top: 0;
+    }
+
+      .social {
+      visibility: hidden;
+  }
+
+    .social-mobile {
+        bottom: -1%;
+        position: absolute;
+        right: 26%;
+        visibility: visible;
+    }
+
+    .social-mobile i {
+        color: cornsilk;
+    }
+
+    .social-mobile i:hover {
+        color:teal;
     }
 
     .logo {
