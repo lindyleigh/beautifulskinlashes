@@ -47,13 +47,10 @@ body {
 
 .hamburger-btn {
     display: none;
-    visibility: hidden;
 }
 
 .hamburger {
     display: none;
-    width: 0;
-    visibility: hidden;
 }
 
 .menu {
@@ -365,13 +362,8 @@ body {
         width: 40%;
     }
 
-    .facebook {
-        left: 3%;
-        top: 4%;
-    }
-
     .menu {
-        visibility: hidden;
+        display: none;
     }
 
     .hamburger-btn {
@@ -379,6 +371,7 @@ body {
         border-radius: 10%;
         border: none;
         color: cornsilk;
+        display: block;
         font-size: 33px;
         margin-top: 6%;
         padding: 0% 0 0 0;
@@ -386,12 +379,12 @@ body {
         position: absolute;
         right: 3%;
         top: -13%;
-        visibility: visible;
         width: 12%;
     }
 
     .hamburger {
         background-color:darkslategray;
+        display: block;
         height: 100%;
         overflow-x: hidden;
         padding-top: 14%; 
@@ -400,7 +393,6 @@ body {
         top: 0;
         transition: 0.5s;
         width: 0;
-        visibility: visible;
         z-index: 1000; 
     }
 
