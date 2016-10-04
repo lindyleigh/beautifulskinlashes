@@ -1,12 +1,13 @@
 /*site structure*/
-html, body {
-    margin: 0 0 100px;
-    padding: 0;
-    height: 100%;
+html {
+    position: relative;
+    min-height: 100%;
 }
+
 
 body {
     background: palegreen;
+    margin: 0 0 100px;
 }
 
 .container-fluid {
@@ -14,8 +15,6 @@ body {
     max-width: 18000px;
     padding-left: 0;
     padding-right: 0;
-    min-height: 100%;
-    position: relative;
 }
 
 /** {
@@ -339,14 +338,15 @@ body {
 
 .footer {
     background-color: darkslategrey;
+    bottom: 0;
     color: cornsilk;
     font-family: 'Belleza', sans-serif;
     height: 100px;
+    left: 0;
     padding: 1%;
     position: absolute;
     text-align: center;
     width: 100%;
-    bottom: 0;
 }
 
 /*mobile responsiveness*/
