@@ -525,9 +525,8 @@ body {
         width: 100%;
     }
 
-    .footer {
-        left: 0;
-        bottom: -26vmax;
-    }
+   .footer {
+       left: 0;
+   }
 }
 
