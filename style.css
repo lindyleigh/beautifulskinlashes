@@ -1,4 +1,9 @@
 /*site structure*/
+html {
+    position: relative;
+}
+
+
 body {
     background: palegreen;
 }
@@ -470,7 +475,7 @@ body {
     }
 
     .about-info {
-        box-shadow: 0;
+        box-shadow: none;
         margin-top: 0;
         margin-bottom: 0;
         padding: 10%;
@@ -482,7 +487,7 @@ body {
     }
 
     .servicepricing {
-        box-shadow: 0;
+        box-shadow: none;
         padding: 1%;
         margin-bottom: 0;
         width: 100%;
@@ -510,7 +515,7 @@ body {
     }
 
     .contact {
-        box-shadow: 0;
+        box-shadow: none;
         margin-bottom: 0;
         width: 100%;
     }
